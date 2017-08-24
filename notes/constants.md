@@ -2,10 +2,10 @@
 
 
 To help distinguish between compile time and run time constants, C++11 introduces
-the ```cpp constexpr ``` keyword.
+the ``` constexpr ``` keyword.
 
-* Use ```cpp constexpr ``` to declare compile-time constants.
-* Use ```cpp const ``` to declare run-time constants.
+* Use ``` constexpr ``` to declare compile-time constants.
+* Use ``` const ``` to declare run-time constants.
 
 ```cpp
 constexpr double gravity (9.8); // ok, the value of 9.8 can be resolved at compile-time
